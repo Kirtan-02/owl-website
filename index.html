@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title ></title>
+	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="web.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	 <header class="header">
+      <div class="sub-header">
+        <div class="main">
+          <div class="name">
+            <h3>
+              <a href="#">owl.carousel.js</a> 
+            </h3>
+          </div>
+          <div class="nav-bar">
+            <ul class="main-ul">
+              <li>
+                <a href="index.html" class="active">Home</a> 
+              </li>
+              <li> <a href="demo.html">Demos</a>  </li>
+              <li> <a href="doc.html">Docs</a>  </li>
+              <li> <a href="index.html">Download</a>  </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main-section">
+        <div class="sub">
+            <div class="content">
+                
+                <div class="content1">Owl Carousel 2</div>
+                <div class="content2">Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.</div>
+                <div class="butto">
+                    <div class="down"><a href="#" class="down1" >Download</a></div>
+                    <div class="git"><a href="#">Github</a></div>
+                </div>
+                <p class="sep">2.3.4</p>
+            </div>
+            <div class="logo">
+                <img class="owl-logo" src="logo1.png">
+            </div>
+        </div>     
+    </section>
+   <div class="home-demo">
+      <div class="row">
+        <div class="demo1">
+          <h3><i>Demo</i></h3>
+        </div>
+          <div class="owl-carousel">
+            <div class="item">
+              <h2><i>Swipe</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Drag</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Responsive</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>CSS3</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Fast</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Easy</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Free</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Upgradable</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Tons of options</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>iInfinity</i></h2>
+            </div>
+            <div class="item">
+              <h2><i>Auto Width</i></h2>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+    <div id="features">
+      <div class="sub-features">
+        <div class="row">
+          <section class="rows-feature">
+            <div class="sub-rows">
+              <img src="feature-options.png" alt="">
+            </div>
+            <div class="content3">
+              <h2>Fully Customisable</h2>
+              <p>Over 60 options. Easy for novice users and even more powerful<br> for advanced developers.</p>
+            </div>
+          </section>
+          <section class="rows-feature">
+            <div class="sub-rows">
+              <img src="feature-drag.png" alt="">
+            </div>
+            <div class="content3">
+              <h2>Touch and Drag Support</h2>
+              <p>Designed specially to boost mobile browsing experience. Mouse<br> drag works great on desktop too!</p>
+            </div>
+          </section>
+          <section class="rows-feature">
+            <div class="subs-rows">
+              <img src="feature-responsive.png" alt="">
+            </div>
+            <div class="content4">
+              <h2>Fully Responsive</h2>
+              <p>Almost all options are responsive and include very intuitive<br> breakpoints settings.</p>
+            </div>
+          </section>
+          <section class="rows-feature">
+            <div class="sub-rows" style="margin-left: 360px;" >
+              <img src="feature-modern.png" alt="">
+            </div>
+            <div class="content3" style="margin-left: 1px;">
+              <h2>Modern Browsers</h2>
+              <p>Owl uses hardware acceleration with CSS3 Translate3d<br> transitions. Its fast and works like a charm! </p>
+            </div>
+          </section>
+          <section class="rows-feature">
+            <div class="sub-rows">
+              <img src="feature-zombie.png" alt="">
+            </div>
+            <div class="content3" style="padding-left: 100px;">
+              <h2>Zombie Browsers</h2>
+              <p>CSS2 fallback supported for older browser.</p>
+            </div>
+          </section>
+          <section class="rows-feature">
+            <div class="sub-rows">
+              <img src="feature-module.png" alt="">
+            </div>
+            <div class="content3">
+              <h2>Modules and Plugins</h2>
+              <p>Owl Carousel supports plugin modular structure. Therefore, you<br> can detach plugins that you won&#x27;t use on your project or create<br> new ones that fit your needs</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="row">
+        <div class="footer1">
+          <hr>
+          <h3 class="content5">Owl Carousel has been choosen as number one jQuery plugin by hundreds of <br>developers. Now its time for a new version that comes with lots of new<br>features and even more user friendly API.</h3>
+          <p class="cens">Watch this space- we&#39;ll be launching soon :)</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer2">
+      <div class="row">
+        <div class="content6">
+          <h5>
+            <a href="#" class="a1">Hitesh Rudakiya</a>
+            <a id="custom-tweet-button" href="twitter_25.png" target="_blank"><img src="twitter_25.png"></a> 
+          </h5>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
